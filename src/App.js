@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField'
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
@@ -7,6 +8,12 @@ import NativeSelect from '@mui/material/NativeSelect';
 import './App.css';
 
 function App() {
+  //備考欄のための値削除
+  const [text, setText] = useState('');
+  const DeleteHandler = () => {
+    setText('')
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -144,11 +151,17 @@ function App() {
       <TextField
           id="standard-multiline-static"
           label="備考欄"
+          value={text}
           multiline
           rows={6}
           sx={{ maxWidth: 300 }}
           variant="standard"
+          onChange={(e)=> {
+            setText(e.target.value)
+          }}
         />
+        <Button variant="contained" onClick={DeleteHandler}
+        >削除</Button>
       </header>
 
     </div>
