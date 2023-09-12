@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nextus/static/css/main.3b141489.css",
-    "main.js": "/nextus/static/js/main.e45d844d.js",
+    "main.js": "/nextus/static/js/main.089bb66b.js",
     "static/js/787.d1493413.chunk.js": "/nextus/static/js/787.d1493413.chunk.js",
     "index.html": "/nextus/index.html",
     "main.3b141489.css.map": "/nextus/static/css/main.3b141489.css.map",
-    "main.e45d844d.js.map": "/nextus/static/js/main.e45d844d.js.map",
+    "main.089bb66b.js.map": "/nextus/static/js/main.089bb66b.js.map",
     "787.d1493413.chunk.js.map": "/nextus/static/js/787.d1493413.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b141489.css",
-    "static/js/main.e45d844d.js"
+    "static/js/main.089bb66b.js"
   ]
 }
