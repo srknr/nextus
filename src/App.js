@@ -77,7 +77,8 @@ function App() {
     <option value={10}>未使用に近い</option>
     <option value={20}>目立った傷汚れなし</option>
     <option value={30}>傷汚れあり</option>
-    <option value={40}>全体的に状態が悪い</option>
+    <option value={40}>傷汚れあり</option>
+    <option value={50}>全体的に状態が悪い</option>
 
   </NativeSelect>
 </FormControl>
