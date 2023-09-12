@@ -160,8 +160,10 @@ function App() {
             setText(e.target.value)
           }}
         />
-        <Button variant="contained" onClick={DeleteHandler}
-        >削除</Button>
+        <p>
+        <Button variant="contained" onClick={DeleteHandler} size="small"
+        >備考欄削除</Button>
+        </p>
       </header>
 
     </div>
