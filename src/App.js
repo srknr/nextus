@@ -8,7 +8,7 @@ import NativeSelect from '@mui/material/NativeSelect';
 import './App.css';
 
 function App() {
-  //備考欄のための値削除
+  //備考欄に記入したテキスト内容削除
   const [text, setText] = useState('');
   const DeleteHandler = () => {
     setText('')
@@ -119,6 +119,78 @@ function App() {
     <option value={110}>220</option>
     <option value={120}>240</option>
     <option value={130}>260</option>
+
+  </NativeSelect>
+</FormControl>
+</Box>
+<Box sx={{ minWidth: 60 }}>
+      <FormControl fullWidth>
+  <InputLabel variant="standard" htmlFor="uncontrolled-native">
+    家財便
+  </InputLabel>
+  <NativeSelect
+    defaultValue={0}
+    inputProps={{
+      name: 'maneger',
+      id: 'uncontrolled-native',
+    }}
+  >
+    <option value={0}></option>
+    <option value={10}>S</option>
+    <option value={20}>A</option>
+    <option value={30}>B</option>
+    <option value={40}>C</option>
+    <option value={50}>D</option>
+    <option value={60}>E</option>
+    <option value={60}>F</option>
+
+  </NativeSelect>
+</FormControl>
+</Box>
+<Box sx={{ minWidth: 60 }}>
+      <FormControl fullWidth>
+  <InputLabel variant="standard" htmlFor="uncontrolled-native">
+    家財便
+  </InputLabel>
+  <NativeSelect
+    defaultValue={0}
+    inputProps={{
+      name: 'maneger',
+      id: 'uncontrolled-native',
+    }}
+  >
+    <option value={0}></option>
+    <option value={10}>S</option>
+    <option value={20}>A</option>
+    <option value={30}>B</option>
+    <option value={40}>C</option>
+    <option value={50}>D</option>
+    <option value={60}>E</option>
+    <option value={60}>F</option>
+
+  </NativeSelect>
+</FormControl>
+</Box>
+<Box sx={{ minWidth: 60 }}>
+      <FormControl fullWidth>
+  <InputLabel variant="standard" htmlFor="uncontrolled-native">
+    家財便
+  </InputLabel>
+  <NativeSelect
+    defaultValue={0}
+    inputProps={{
+      name: 'maneger',
+      id: 'uncontrolled-native',
+    }}
+  >
+    <option value={0}></option>
+    <option value={10}>S</option>
+    <option value={20}>A</option>
+    <option value={30}>B</option>
+    <option value={40}>C</option>
+    <option value={50}>D</option>
+    <option value={60}>E</option>
+    <option value={60}>F</option>
 
   </NativeSelect>
 </FormControl>
