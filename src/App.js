@@ -8,7 +8,6 @@ import NativeSelect from '@mui/material/NativeSelect';
 import './App.css';
 
 function App() {
-  //備考欄に記入したテキスト内容削除
   const [text, setText] = useState('');
   const DeleteHandler = () => {
     setText('')
