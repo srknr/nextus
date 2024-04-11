@@ -58,6 +58,7 @@ function App() {
     <option value={10}>F</option>
     <option value={20}>HT</option>
     <option value={30}>AW</option>
+    <option value={40}>SS</option>
   </NativeSelect>
 </FormControl>
 </Box>
