@@ -94,10 +94,10 @@ function App() {
 </p>
         
  <div className="flexLayout">
-<Box sx={{ minWidth: 150 }}>
+<Box sx={{ minWidth: 180 }}>
       <FormControl fullWidth>
   <InputLabel variant="standard" htmlFor="uncontrolled-native">
-    佐川orヤマトでの発送
+    日本郵便/佐川/ヤマトでの発送
   </InputLabel>
   <NativeSelect
     defaultValue={0}
@@ -106,20 +106,42 @@ function App() {
       id: 'uncontrolled-native',
     }}
   >
+   
     <option value={0}></option>
     <option value={10}>ネコポス</option> 
     <option value={20}>コンパクト</option>
     <option value={30}>60</option>
     <option value={40}>80</option>
     <option value={50}>100</option>
+    <option value={50}>120</option>
     <option value={60}>140</option>
     <option value={70}>160</option>
     <option value={80}>170</option>
-    <option value={90}>180</option>
-    <option value={100}>200</option>
-    <option value={110}>220</option>
-    <option value={120}>240</option>
-    <option value={130}>260</option>
+    <option value={90}>180(佐川)</option>
+    <option value={100}>200(佐川)</option>
+    <option value={110}>220(佐川)</option>
+    <option value={120}>240(佐川)</option>
+    <option value={130}>260(佐川)</option>
+
+  </NativeSelect>
+</FormControl>
+</Box>
+<Box sx={{ minWidth: 60 }}>
+      <FormControl fullWidth>
+  <InputLabel variant="standard" htmlFor="uncontrolled-native">
+    個数
+  </InputLabel>
+  <NativeSelect
+    defaultValue={0}
+    inputProps={{
+      name: 'maneger',
+      id: 'uncontrolled-native',
+    }}
+  >
+    <option value={0}>1</option>
+    <option value={10}>2</option>
+    <option value={20}>3</option>
+    <option value={30}>4</option>
 
   </NativeSelect>
 </FormControl>
